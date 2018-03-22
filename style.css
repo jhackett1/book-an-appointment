@@ -83,6 +83,7 @@ button, a.button {
   display: inline-block;
   padding: 12px 22px;
   color: #ffffff;
+  text-align: center;
   font-size: 1em;
   font-family: sans-serif;
   border: none;
@@ -112,4 +113,67 @@ aside {
   padding: 5px 0px 5px 15px;
   border-left: 8px solid #0E66B5;
   margin: 25px 0px;
+}
+
+ul.appointments {
+  list-style-type: none;
+  margin: 10px 0px;
+}
+ul.appointments li {
+  border-top: 1px solid #dee0e2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: center;
+          flex-direction: center;
+}
+ul.appointments li span.rating {
+  background-color: rgba(14, 102, 181, 0.3);
+  display: inline-block;
+  padding: 3px 7px;
+  font-weight: 400;
+  border-radius: 5px;
+}
+ul.appointments li section {
+  border: none !important;
+  padding: 0px !important;
+  margin: 0px !important;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+ul.appointments li section:last-of-type {
+  text-align: right;
+}
+ul.appointments li section:last-of-type a {
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+
+section.confirm {
+  background-color: rgba(14, 102, 181, 0.8);
+  border: none !important;
+  color: #ffffff;
+  text-align: center;
+}
+section.confirm h1, section.confirm h3 {
+  color: #ffffff;
+}
+
+input[type="checkbox"]{
+  font-size: 1em;
+  margin-right: 5px;
+}
+
+ul.appointments li input {
+  margin-bottom: 10px;
+  margin-right: 5px;
+  font-size: 1em;
+}
+
+small{
+  color: #6f777b;
 }
