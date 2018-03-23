@@ -1,0 +1,29 @@
+*{
+  color: white;
+}
+
+body{
+  background-image: url("http://www.webweaver.nu/clipart/img/nature/planets/starrynight-bg.jpg");
+  text-align: center;
+}
+
+header img{
+  height: 70px;
+}
+
+section.alpha img{
+  height: 60px
+}
+
+h1, h2, h3, h4, h5{
+  font-family: cursive
+}
+
+section.appt{
+  border: 2px solid grey;
+  border-style: inset;
+}
+
+footer p{
+  color: yellow
+}
